@@ -13,11 +13,24 @@ def printLoop(listOfStrings):
 
 functions=[]
 functions.append("sqrt")
+functions.append("fact")
 
 def applyFunction(name, value):
     answer=""
     if name == "sqrt":
-        answer=sqrt(int(value))
+        answer=sqrt(value)
+    elif name == "fact":
+        answer==fact(value)
+    return answer
+
+def checkImplemented(fName):
+    isIn=fName in functions
+    return isIn
+
+def fact(value):
+    answer=1
+    for i in range (1,value+1):
+        answer=answer*i
     return answer
 
 def main():
@@ -25,7 +38,24 @@ def main():
     print("Implemented functions: ")
     printLoop(functions)
     mathFunction=input("\nType the name of the function\n")
+    isImplemented=checkImplemented(mathFunction)
+    while(not isImplemented):
+        print(mathFunction+" is either unimplemented or invalid.\n")
+        mathFunction=input("\nType the name of the function\n")
+        isImplemented=checkImplemented(mathFunction)
     mathValue=input("\nType the value to use\n")
+
+    isNumber=mathValue.isnumeric()
+    while(isNumber == False):
+        print(mathValue+" is not a number.")
+        mathValue=input("\nType the value to use\n")
+        isNumber=mathValue.isnumeric()
+    #print(isNumber)
     answer=applyFunction(mathFunction,mathValue)
     print(mathFunction+"("+mathValue+") = "+str(answer))
-main()
+#main()
+
+def mathCommands():
+    input("Type in math commands\n")
+    
+mathCommands()
