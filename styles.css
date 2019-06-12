@@ -5,6 +5,11 @@ table,th,td
         text-align:center;
 }
 
+div
+{
+    font-size:2vw;
+}
+
 a
 {
     color:white;
