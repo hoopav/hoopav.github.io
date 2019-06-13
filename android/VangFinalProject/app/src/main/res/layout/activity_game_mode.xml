@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/story"
+    tools:context="edu.mnstate.gv4940sr.vangfinalproject.GameModeActivity">
+<TextView
+    android:id="@+id/story_text_view"
+    android:layout_height="450dp"
+    android:layout_width="match_parent"
+    android:text="@string/placeholder_story_text"
+    android:textColor="@color/white"
+    android:background="@color/scrimCenterColor"
+    android:layout_marginTop="208dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true" />
+</android.widget.RelativeLayout>

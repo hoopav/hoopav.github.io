@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">VangFinalProject</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title">Dimensional Rift</string>
+    <string name="about_fragment_text">Hi! I\'m HouPha Vang, the creator of this app. It\'s a small game that was created for my
+    mobile applications development class. There\'s not too much to it yet, but I hope it\'s still
+    pretty fun to play.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_shop">Shop</string>
+    <string name="title_units">Units</string>
+    <string name="unit_status_default_name">player</string>
+    <string name="show_only_names_button">show only names</string>
+    <string name="add_button">add</string>
+    <string name="sell_all_button">sell all</string>
+    <string name="show_names_descriptions_button">show names and descriptions</string>
+    <string name="placeholder_story_text">This is how the story begins</string>
+    <array name="prefs">
+        <item>
+            Mute Sound
+        </item>
+        <item>
+            Auto Save
+        </item>
+    </array>
+</resources>

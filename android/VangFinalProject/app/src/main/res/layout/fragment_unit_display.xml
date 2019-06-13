@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unitscreen"
+    android:orientation="horizontal"
+    tools:context="edu.mnstate.gv4940sr.vangfinalproject.UnitDisplayFragment">
+
+    <!-- TODO: make recycler view here for units -->
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/unit_display_recycler_view"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:scrollbars="horizontal">
+
+
+</android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

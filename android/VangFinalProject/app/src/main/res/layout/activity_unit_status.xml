@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/unit_status_layout"
+    android:background="@drawable/shopscreen"
+    tools:context="edu.mnstate.gv4940sr.vangfinalproject.UnitStatusActivity">
+
+    <ImageView
+        android:id="@+id/unit_status_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/playercharacter"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/unit_status_default_name"
+        android:textColor="@color/white"
+        android:background="@drawable/darkscrim"
+        android:id="@+id/unit_status_name"
+        android:layout_above="@+id/unit_status_image"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="135dp" />
+
+</android.widget.RelativeLayout>

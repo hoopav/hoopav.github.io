@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shopscreen"
+    tools:context="edu.mnstate.gv4940sr.vangfinalproject.ShopDisplayFragment">
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lightscrim"
+        android:id="@android:id/list">
+
+    </ListView>
+    <Button android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:text="@string/add_button"
+        android:onClick="addItem"
+    android:id="@+id/add_item"/>
+
+    <Button android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:text="@string/sell_all_button"
+    android:onClick="deleteItem"
+    android:id="@+id/delete_item"/>
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/show_only_names_button"
+        android:onClick="showNames"
+        android:id="@+id/show_only_names"/>
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/show_names_descriptions_button"
+        android:onClick="showNamesDescriptions"
+        android:id="@+id/show_names_description"/>
+
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/player_money"
+    android:text="hello"
+    android:textColor="@color/white"
+    android:background="@drawable/darkscrim"
+    />
+</LinearLayout>
