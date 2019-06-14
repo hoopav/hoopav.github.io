@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.mnstate.gv4940sr.vangproject1.Battle">
+
+    <ImageView
+        android:id="@+id/backdropImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:visibility="visible"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <FrameLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/framlayoutmarginbottom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/frameLayout">
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:id="@+id/actionGroup"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/atkRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/radioButtonAtk" />
+
+            <RadioButton
+                android:id="@+id/abilityRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radiobuttonabiltiy" />
+
+            <RadioButton
+                android:id="@+id/defRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radiobuttonDefend" />
+        </RadioGroup>
+
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/fightbuttonbottommargin"
+        android:onClick="fight"
+        android:text="@string/fightbuttonText" />
+
+    <ProgressBar
+        android:id="@+id/enemyhpBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="@dimen/hpbarsize"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/enemyImageView"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/enemyImageView"
+        android:layout_width="@dimen/monsterSize"
+        android:layout_height="@dimen/monsterSize"
+        android:scaleType="fitXY"
+        app:srcCompat="@android:drawable/btn_dialog"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        android:id="@+id/hpBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="@dimen/hpbarsize"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+         />
+
+    <TextView
+        android:id="@+id/hpBarText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/hpBar"
+        android:layout_marginStart="@dimen/hpbarselfstartmargin"
+        android:layout_toEndOf="@+id/hpBar"
+        android:text="@string/hpbarStartText" />
+
+    <TextView
+        android:id="@+id/enemyhpBarText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/enemyImageView"
+        android:layout_toEndOf="@+id/enemyhpBar"
+        android:text="@string/hpbarStartText" />
+</RelativeLayout>

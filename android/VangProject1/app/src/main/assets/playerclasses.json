@@ -1,0 +1,65 @@
+{
+	"playerclasses":
+		[
+		 {
+			"name": "Warrior",
+			"description": "The strongest member of your party. However his disadvantage is that his strength is all he has. The Warrior does not know any magic and is very slow. His attack and defense power are the best in the game. He can equip himself with most weapons and armor like the hero.",
+			"imageurl": "http://www.realmofdarkness.net/dq/img/snes/dq3/char/warrior-m.png",
+			"ability": "None",
+			"hp": "100",
+			"mp": "0",
+			"atk": "20",
+			"def": "10"
+		},
+		 {
+			"name": "Cleric",
+			"description": "The Cleric knows many spells, but specializes in healing types. Though not as strong as the Hero or Warrior the Cleric is still a very good fighter. He cannot be equipped with as much armor and weaponry but what you can equip him with is more than enough.",
+			"imageurl": "http://www.realmofdarkness.net/dq/img/snes/dq3/char/cleric-m.png",
+			"ability": "Heal: Restore 10 hp",
+			"hp": "100",
+			"mp": "15",
+			"atk": "10",
+			"def": "5"
+		},
+		 {
+			"name": "Mage",
+			"description": "The Mage is very weak in terms of attack and defense power but he makes up for that with his superior knowledge of magic. In particular fighting spells. The Mage is very limited in terms of which weapons and armor he can be equipped with.",
+			"imageurl": "http://www.realmofdarkness.net/dq/img/snes/dq3/char/mage-m.png",
+			"ability": "Blaze: Deal 2x Atk",
+			"hp": "100",
+			"mp": "25",
+			"atk": "5",
+			"def": "0"
+		},
+		 {
+			"name": "Warrior",
+			"description": "The strongest member of your party however her disadvantage is that her strength is all she has. The Warrior does not know any magic and is very slow. Her attack and defense power are the best in the game. She can equip himself with most weapons and armor like the hero.",
+			"imageurl": "http://www.realmofdarkness.net/dq/img/snes/dq3/char/warrior-f.png",
+			"ability": "None",
+			"hp": "100",
+			"mp": "0",
+			"atk": "20",
+			"def": "10"
+		},
+		 {
+			"name": "Cleric",
+			"description": "The Cleric knows many spells but specializes in healing types. Though not as strong as the Hero or Warrior the Cleric is still a very good fighter. She cannot be equipped with as much armor and weaponry but what you can equip her with is more than enough.",
+			"imageurl": "http://www.realmofdarkness.net/dq/img/snes/dq3/char/cleric-f.png",
+			"ability": "Heal: Restore 10 hp",
+			"hp": "100",
+			"mp": "15",
+			"atk": "10",
+			"def": "5"
+		},
+		 {
+			"name": "Mage",
+			"description": "The Mage is very weak in terms of attack and defense power but she makes up for that with her superior knowledge of magic particular fighting spells. The Mage is very limited in terms of which weapons and armor she can be equipped with.",
+			"imageurl": "http://www.realmofdarkness.net/dq/img/snes/dq3/char/mage-f.png",
+			"ability": "Blaze: Deal 2x Atk",
+			"hp": "100",
+			"mp": "25",
+			"atk": "5",
+			"def": "0"
+		}
+	]
+}

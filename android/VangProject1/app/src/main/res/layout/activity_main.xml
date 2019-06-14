@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.mnstate.gv4940sr.vangproject1.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:onClick="stopMusic"
+        app:srcCompat="@drawable/title" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/startButton"
+        android:layout_marginBottom="@dimen/startbuttonbottommargin"
+        android:onClick="gotoMenu"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/loadButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loadButton"
+            android:onClick="loadgame"
+            android:layout_above="@+id/startButton"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</android.widget.FrameLayout>

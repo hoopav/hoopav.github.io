@@ -1,0 +1,355 @@
+{
+	"monsters":
+		[
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/almiraj.png"",
+			"name": " Almiraj",
+			"hp": " 20",
+			"gold": " 8",
+			"exp": " 14",
+			"special": " Sleep",
+			"treasure": " Leather Hat"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/antbear.png"",
+			"name": " Antbear",
+			"hp": " 50",
+			"gold": " 25",
+			"exp": " 110",
+			"special": " -",
+			"treasure": " Medical Herb"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/anteater.png"",
+			"name": " Anteater",
+			"hp": " 13",
+			"gold": " 4",
+			"exp": " 12",
+			"special": " -",
+			"treasure": " Leather Hat"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/archmage.png"",
+			"name": " Archmage",
+			"hp": " 130",
+			"gold": " 140",
+			"exp": " 2850",
+			"special": " Paralysis Attack, Explodet, Revive",
+			"treasure": " Staff of Reflection"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/armycrab.png"",
+			"name": " Army Crab",
+			"hp": " 28",
+			"gold": " 12",
+			"exp": " 35",
+			"special": " Calls for help",
+			"treasure": " Traveler's Clothes "
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/avenger.png"",
+			"name": " Avenger",
+			"hp": " 115",
+			"gold": " 42",
+			"exp": " 940",
+			"special": " Brutal Hit",
+			"treasure": " Iron Axe"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/babble.png"",
+			"name": " Babble",
+			"hp": " 10",
+			"gold": " 8",
+			"exp": " 16",
+			"special": " Poisonous Attack",
+			"treasure": " Antidote Herb"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/balrog.png"",
+			"name": " Balrog",
+			"hp": " 93",
+			"gold": " 80",
+			"exp": " 3270",
+			"special": " Defeat",
+			"treasure": " Magic Hat"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/barabomus.png"",
+			"name": " BaraBomus",
+			"hp": " 1100",
+			"gold": " 450",
+			"exp": " 13500",
+			"special": " Explodet, Non-Magical Fire Attack",
+			"treasure": " Sorrow Shield"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/baraevil.png"",
+			"name": " BaraEvil",
+			"hp": " 900",
+			"gold": " 150",
+			"exp": " 7300",
+			"special": " Non-Magical Ice Attack, Explodet, Blazemost",
+			"treasure": " Mystic Nut"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/baragonus.png"",
+			"name": " BaraGonus",
+			"hp": " 3000",
+			"gold": " 115",
+			"exp": " 14300",
+			"special": " Attack 2X Per Round",
+			"treasure": " Sword of Destruction"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/baramos.png"",
+			"name": " Baramos",
+			"hp": " 2500",
+			"gold": " -",
+			"exp": " 65535 ",
+			"special": " Explodet, Panicall, Blazemost, Disperse, Intense Flames",
+			"treasure": " -"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/barnabas.png"",
+			"name": " Barnabas",
+			"hp": " 58",
+			"gold": " 52",
+			"exp": " 235",
+			"special": " Stopspell, Healmore",
+			"treasure": " Traveler's Clothes "
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/bighorn.png"",
+			"name": " Bighorn",
+			"hp": " 75",
+			"gold": " 68",
+			"exp": " 353",
+			"special": " Sweet-breath",
+			"treasure": " Holy Water"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/bigshroom.png"",
+			"name": " Big Shroom",
+			"hp": " 24",
+			"gold": " 18",
+			"exp": " 39",
+			"special": " Sweet-breath",
+			"treasure": " Holy Water"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/blissbird.png"",
+			"name": " Bliss Bird",
+			"hp": " 90",
+			"gold": " 85",
+			"exp": " 980",
+			"special": " Healus",
+			"treasure": " Pachisi Ticket"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/bluebeak.png"",
+			"name": " Blue Beak",
+			"hp": " 60",
+			"gold": " 32",
+			"exp": " 372",
+			"special": " Infernos",
+			"treasure": " -"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/bombcrag.png"",
+			"name": " Bomb Crag",
+			"hp": " 500",
+			"gold": " 105",
+			"exp": " 660",
+			"special": " Sacrifice",
+			"treasure": " Life Stone"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/bosstroll.png"",
+			"name": " Boss Troll",
+			"hp": " 1500",
+			"gold": " 105",
+			"exp": " 2500",
+			"special": " Defense, Brutal Hit",
+			"treasure": " Strength Seed"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/bruin.png"",
+			"name": " Bruin",
+			"hp": " 90",
+			"gold": " 55",
+			"exp": " 440",
+			"special": " Increase",
+			"treasure": " Strength Seed"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/butterfly.png"",
+			"name": " Butterfly",
+			"hp": " 12",
+			"gold": " 4",
+			"exp": " 9",
+			"special": " Surround",
+			"treasure": " Wings"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/cannibox.png"",
+			"name": " Cannibox",
+			"hp": " 120",
+			"gold": " 60",
+			"exp": " 137",
+			"special": " Sweet-breath, Brutal Hit",
+			"treasure": " -"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/carnimoth.png"",
+			"name": " Carnimoth",
+			"hp": " 26",
+			"gold": " 15",
+			"exp": " 55",
+			"special": " Calls for help, Surround, Poisonous Attack",
+			"treasure": " Poison Needle"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/catapila.png"",
+			"name": " Catapila",
+			"hp": " 50",
+			"gold": " 12",
+			"exp": " 35",
+			"special": " Increase",
+			"treasure": " Medical Herb"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/catfly.png"",
+			"name": " Cat Fly",
+			"hp": " 40",
+			"gold": " 20",
+			"exp": " 65",
+			"special": " Stopspell, Parry",
+			"treasure": " Plush Suit"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/catula.png"",
+			"name": " Catula",
+			"hp": " 35",
+			"gold": " 35",
+			"exp": " 135",
+			"special": " Calls for help",
+			"treasure": " Plush Suit"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/crabus.png"",
+			"name": " Crabus",
+			"hp": " 50",
+			"gold": " 45",
+			"exp": " 290",
+			"special": " Brutal Hit",
+			"treasure": " Shell Armor"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/curer.png"",
+			"name": " Curer",
+			"hp": " 50",
+			"gold": " 38",
+			"exp": " 278",
+			"special": " Healmore",
+			"treasure": " Stamina Seed"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/darktroll.png"",
+			"name": " Dark Troll",
+			"hp": " 700",
+			"gold": " 63",
+			"exp": " 3700",
+			"special": " Twinhits, Brutal Hit",
+			"treasure": " Smart Book"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/darthbear.png"",
+			"name": " Darth Bear",
+			"hp": " 150",
+			"gold": " 130",
+			"exp": " 2080",
+			"special": " Brutal Hit",
+			"treasure": " Agility Seed"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/deadhound.png"",
+			"name": " Dead Hound",
+			"hp": " 42",
+			"gold": " 20",
+			"exp": " 95",
+			"special": " Calls for help, Surround",
+			"treasure": " Life Nut"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/deadstool.png"",
+			"name": " Deadstool",
+			"hp": " 40",
+			"gold": " 40",
+			"exp": " 92",
+			"special": " Heal, Icebolt",
+			"treasure": " Wings"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/demonite.png"",
+			"name": " Demonite",
+			"hp": " 70",
+			"gold": " 45",
+			"exp": " 100",
+			"special": " Breathes cold, Defeat, Explodet, Sacrifice",
+			"treasure": " Wizard Ring"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/demonsword.png"",
+			"name": " Demon Sword",
+			"hp": " 300",
+			"gold": " 52",
+			"exp": " 2800",
+			"special": " Paralysis Attack, Multiple Attacks Per Round",
+			"treasure": " 2-Edged Sword"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/deranger.png"",
+			"name": " Deranger",
+			"hp": " 80",
+			"gold": " 48",
+			"exp": " 343",
+			"special": " PanicAll, Healmore",
+			"treasure": " Pachisi Ticket"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/devilmage.png"",
+			"name": " Devil Mage",
+			"hp": " 350",
+			"gold": " 210",
+			"exp": " 4300",
+			"special": " Defense, Explodet, Healall, Revive, Stopspell, TwinHits",
+			"treasure": " Wizard Ring"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/dragon.png"",
+			"name": " Dragon",
+			"hp": " 133",
+			"gold": " 107",
+			"exp": " 2600",
+			"special": " Calls for help, Spews fire",
+			"treasure": " Stamina Seed"
+		},
+		 {
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/druid.png"",
+			"name": " Druid",
+			"hp": " 35",
+			"gold": " 35",
+			"exp": " 82",
+			"special": " Infernos",
+			"treasure": " Luck Seed"
+		},
+		{
+			"imageurl": ""http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/druid.png"",
+			"name": " Druid",
+			"hp": " 35",
+			"gold": " 35",
+			"exp": " 82",
+			"special": " Infernos",
+			"treasure": " Luck Seed"
+		}]
+}

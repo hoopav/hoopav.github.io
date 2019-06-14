@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="edu.mnstate.gv4940sr.vangproject1.AdventureScreenActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/outline"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/battleButton"
+        android:layout_above="@+id/saveIcon">
+
+        <TextView
+            android:id="@+id/playerSaveNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholdertext" />
+
+        <TextView
+            android:id="@+id/classNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholdertext" />
+
+        <TextView
+            android:id="@+id/levelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholdertext" />
+
+        <TextView
+            android:id="@+id/playerAtkTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholdertext" />
+
+        <TextView
+            android:id="@+id/playerDefTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholdertext" />
+
+        <TextView
+            android:id="@+id/playerHPTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholdertext" />
+
+        <TextView
+            android:id="@+id/playerMPTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholdertext" />
+        <TextView
+            android:id="@+id/playerExpTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholdertext" />
+        <TextView
+            android:id="@+id/playerExpToNextTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholdertext" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/characterPic"
+        android:layout_width="@android:dimen/thumbnail_width"
+        android:layout_height="@android:dimen/thumbnail_height"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/battleButton"
+        android:text="@string/battleButtonText"
+        android:onClick="startBattle"
+        android:layout_marginBottom="@dimen/buttonBottomMarginsize"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/saveIcon"
+        android:layout_width="@dimen/saveIconSize"
+        android:layout_height="@dimen/saveIconSize"
+        android:layout_alignBottom="@+id/battleButton"
+        android:layout_alignEnd="@+id/characterPic"
+        android:onClick="saveData"
+        app:srcCompat="@drawable/save" />
+
+    <SeekBar
+        android:id="@+id/volumeSeekBar"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/characterPic"
+        android:layout_centerVertical="true"
+        android:max="100"
+
+        android:progress="70" />
+
+    <TextView
+        android:id="@+id/volumeLeveltextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/volumeSeekBar"
+        android:layout_alignStart="@+id/volumeSeekBar"
+        android:text="@string/volumeTextViewText"
+        android:textColor="@color/colorText" />
+
+    <Spinner
+        android:id="@+id/selectItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/volumeSeekBar"
+        android:layout_below="@+id/volumeSeekBar"
+        android:background="@color/colorText"
+        android:layout_marginTop="@dimen/spinnerMarginTop" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/selectItem"
+        android:layout_below="@+id/selectItem"
+        android:layout_marginTop="@dimen/marginTop"
+        android:onClick="checkboxClick"
+        android:text="@string/checkboxText"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/checkBox"
+        android:layout_alignEnd="@+id/volumeLeveltextView"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:text="@string/inventory"
+        android:textColor="@color/colorText" />
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="edu.mnstate.gv4940sr.vangproject1.MenuActivity">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/nameprompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:shadowColor="@color/black"
+            android:text="@string/namepromptLabelText"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/nameInputEditText"
+            android:layout_width="@dimen/editTextSize"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/nameprompt"
+            android:inputType="text"
+            android:shadowColor="@color/black"
+            android:maxLines="1"
+            android:imeOptions="actionDone"
+            android:text="@string/defaultTextEditText"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/genderprompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/black"
+            android:text="@string/genderPrompt"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+
+        <ToggleButton
+            android:id="@+id/genderToggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/togglebutton"
+            android:onClick="updateList"
+            android:textOff="@string/toggleM"
+            android:textOn="@string/toggleF"
+            android:layout_toEndOf="@+id/genderprompt"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/classprompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:text="I want to be a..."
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
+
+    <ListView
+        android:id="@+id/classlistview"
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/startButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="createFile"
+        android:text="@string/startButton2" />
+</LinearLayout>
+</android.widget.RelativeLayout>

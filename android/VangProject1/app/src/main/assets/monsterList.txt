@@ -1,0 +1,39 @@
+imageurl;name;hp;gold;exp;special;treasure
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/almiraj.png"; Almiraj; 20; 8; 14; Sleep; Leather Hat
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/antbear.png"; Antbear; 50; 25; 110; -; Medical Herb
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/anteater.png"; Anteater; 13; 4; 12; -; Leather Hat
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/archmage.png"; Archmage; 130; 140; 2850; Paralysis Attack, Explodet, Revive; Staff of Reflection
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/armycrab.png"; Army Crab; 28; 12; 35; Calls for help; Traveler's Clothes 
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/avenger.png"; Avenger; 115; 42; 940; Brutal Hit; Iron Axe
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/babble.png"; Babble; 10; 8; 16; Poisonous Attack; Antidote Herb
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/balrog.png"; Balrog; 93; 80; 3270; Defeat; Magic Hat
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/barabomus.png"; BaraBomus; 1100; 450; 13500; Explodet, Non-Magical Fire Attack; Sorrow Shield
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/baraevil.png"; BaraEvil; 900; 150; 7300; Non-Magical Ice Attack, Explodet, Blazemost; Mystic Nut
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/baragonus.png"; BaraGonus; 3000; 115; 14300; Attack 2X Per Round; Sword of Destruction
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/baramos.png"; Baramos; 2500; -; 65535 ; Explodet, Panicall, Blazemost, Disperse, Intense Flames; -
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/barnabas.png"; Barnabas; 58; 52; 235; Stopspell, Healmore; Traveler's Clothes 
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/bighorn.png"; Bighorn; 75; 68; 353; Sweet-breath; Holy Water
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/bigshroom.png"; Big Shroom; 24; 18; 39; Sweet-breath; Holy Water
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/blissbird.png"; Bliss Bird; 90; 85; 980; Healus; Pachisi Ticket
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/bluebeak.png"; Blue Beak; 60; 32; 372; Infernos; -
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/bombcrag.png"; Bomb Crag; 500; 105; 660; Sacrifice; Life Stone
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/bosstroll.png"; Boss Troll; 1500; 105; 2500; Defense, Brutal Hit; Strength Seed
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/bruin.png"; Bruin; 90; 55; 440; Increase; Strength Seed
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/butterfly.png"; Butterfly; 12; 4; 9; Surround; Wings
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/cannibox.png"; Cannibox; 120; 60; 137; Sweet-breath, Brutal Hit; -
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/carnimoth.png"; Carnimoth; 26; 15; 55; Calls for help, Surround, Poisonous Attack; Poison Needle
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/catapila.png"; Catapila; 50; 12; 35; Increase; Medical Herb
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/catfly.png"; Cat Fly; 40; 20; 65; Stopspell, Parry; Plush Suit
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/catula.png"; Catula; 35; 35; 135; Calls for help; Plush Suit
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/crabus.png"; Crabus; 50; 45; 290; Brutal Hit; Shell Armor
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/curer.png"; Curer; 50; 38; 278; Healmore; Stamina Seed
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/darktroll.png"; Dark Troll; 700; 63; 3700; Twinhits, Brutal Hit; Smart Book
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/darthbear.png"; Darth Bear; 150; 130; 2080; Brutal Hit; Agility Seed
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/deadhound.png"; Dead Hound; 42; 20; 95; Calls for help, Surround; Life Nut
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/deadstool.png"; Deadstool; 40; 40; 92; Heal, Icebolt; Wings
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/demonite.png"; Demonite; 70; 45; 100; Breathes cold, Defeat, Explodet, Sacrifice; Wizard Ring
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/demonsword.png"; Demon Sword; 300; 52; 2800; Paralysis Attack, Multiple Attacks Per Round; 2-Edged Sword
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/deranger.png"; Deranger; 80; 48; 343; PanicAll, Healmore; Pachisi Ticket
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/devilmage.png"; Devil Mage; 350; 210; 4300; Defense, Explodet, Healall, Revive, Stopspell, TwinHits; Wizard Ring
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/dragon.png"; Dragon; 133; 107; 2600; Calls for help, Spews fire; Stamina Seed
+"http://www.realmofdarkness.net/dq/img/snes/dq3/monsters/druid.png"; Druid; 35; 35; 82; Infernos; Luck Seed

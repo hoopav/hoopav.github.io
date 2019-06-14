@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="editTextSize">150dp</dimen>
+    <dimen name="iconsize">128dp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="monsterSize">450dp</dimen>
+    <dimen name="hpbarsize">200dp</dimen>
+    <dimen name="marginTop">16dp</dimen>
+    <dimen name="marginBottom">18dp</dimen>
+    <dimen name="spinnerMarginTop">41dp</dimen>
+    <dimen name="saveIconSize">50dp</dimen>
+    <dimen name="buttonBottomMarginsize">22dp</dimen>
+    <dimen name="framlayoutmarginbottom">116dp</dimen>
+    <dimen name="fightbuttonbottommargin">25dp</dimen>
+    <dimen name="hpbarselfstartmargin">12dp</dimen>
+    <dimen name="startbuttonbottommargin">30dp</dimen>
+    <dimen name="playerImageViewbottomMargin">6dp</dimen>
+    <dimen name="playerImageViewstartMargin">4dp</dimen>
+    <dimen name="playerImageViewtopMargin">6dp</dimen>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/playerImageView"
+            android:layout_width="@dimen/iconsize"
+            android:layout_height="@dimen/iconsize"
+            android:layout_alignParentStart="true"
+
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/playerImageViewbottomMargin"
+            android:layout_marginStart="@dimen/playerImageViewstartMargin"
+            android:layout_marginTop="@dimen/playerImageViewtopMargin"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/ic_launcher"
+            tools:src="@mipmap/ic_launcher" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/playerNameTextView"/>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="hp"
+
+                    android:id="@+id/hpTextView"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/mpTextView"
+                    android:paddingLeft="@dimen/padding"
+                    android:id="@+id/mpTextView"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/atkTextView"
+                    android:paddingLeft="@dimen/padding"
+                    android:id="@+id/atkTextView"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/defTextView"
+                    android:paddingLeft="@dimen/padding"
+                    android:id="@+id/defTextView"/>
+
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/playerRankTextView"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                />
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/playerDescTextView"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
