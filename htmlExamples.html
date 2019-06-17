@@ -9,25 +9,101 @@
 <body>
 <h1 style="text-align:center">HouPha Vang's Programming Projects</h1>
 <hr>
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-<hr><br>
+<h1>SVG</h1>
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="purple" stroke-width="4" fill="blue" />
+</svg>
+<svg width="200" height="100">
+  <rect width="200" height="100" style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" />
+</svg>
+<svg width="400" height="180">
+  <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+  style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+</svg><br>
+<svg width="300" height="200">
+  <polygon points="100,10 40,198 190,78 10,78 160,198"
+  style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+</svg>
+<svg height="130" width="500">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+  <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+  Sorry, your browser does not support inline SVG.
+</svg>
+<br>
+<hr>
+<h1>Videos</h1>
+<video width="320" height="240" controls>
+  <source src="video/waves.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<br>
+<hr>
+<h1>Audio</h1>
+<audio controls>
+  <source src="audio/ominous.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+<br>
 
-<h1>This is heading 1</h1>
-<h2>This is heading 2</h2>
-<h3>This is heading 3</h3>
+
+<hr>
+<h1>Forms</h1>
+<form action="noonestory.html" target="_blank" method="get">
+<input type="text" name="ui"> </input>
+<input type="radio" name="a">A</input>
+<input type="radio" name="b">B</input>
+<input type="radio" name="c" checked>C</input>
+<br>Quantity (between 1 and 5)<input type="number" name="quantity" min="1" max="10"></input>
+<select name="cars" size="1">
+  <option value="volvo" selected>Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+<br>
+<input type="range" name="points" min="0" max="10"></input>
+<br><br>
+<textarea name="message" rows="10" cols="30">
+This is where you type stuff.
+</textarea>
+<br><br>
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+<input type="submit"></input><br>
+</form><br>
+
+<fieldset>
+<form action="results.html">
+<input type="radio" name="a">A</input><br>
+<input type="radio" name="b">B</input><br>
+<input type="radio" name="c" checked>C</input><br>
+Username: <input type="text" name="username" value="Bob"></input><br>
+Password: <input type="password" name="password" value="Empty"></input><br>
+Flavors: <br>chocolate<input type="checkbox" name="cb1" value="chocolate"> 
+vanilla<input type="checkbox" name="cb2" value="vanilla"><br>
+<input type="color" name="favcolor">
+<input type="date" name="date">
+<input type="datetime-local" name="daytime"><br>
+<input type="email" name="email"><br>
+Select a file: <input type="file" name="myFile">
+<input type="submit" name="submit"></input> 
+<input type="reset"></input><br>
+</form>
+</fieldset>
 <hr><br>
 
 <a href="https://www.w3schools.com">This is a link to w3schools</a>
 </body>
 <hr><br>
 
-<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
-<hr><br>
-
-<button>Javascript Examples</button>
-<hr><br>
-
+<img src="images/Banner.png" alt="Banner.png" width="400" height="100">
+<hr>
+<h1>list examples</h1>
 <ul>
     <li>Coffee</li>
     <li>Tea</li>
